@@ -8,10 +8,6 @@ import java.util.*;
 
 public class PeptideOccuranceFilterAndRTDetermination {
 	public static void main(String[] args) {
-		/*ArrayList<Peptide> peps = getPeptide("Table3");
-		peps = assignMultiChargeFlag(peps);
-		filter_new(peps, 4, "Table3_rtrange");*/
-		filter_largeRTRange("Table3_rtrange", "Table3_in");
 	}
 	public static void filter_largeRTRange(String in, String out) {
 		try {
